@@ -12,10 +12,10 @@ expected_products = {
 # Conectar a la base de datos MySQL
 def connect_db():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",  # Cambia esto con tu nombre de usuario
-        password="W7301@jqir#@",  # Cambia esto con tu contraseña
-        database="vendor"
+        host="",
+        user="",  # Cambia esto con tu nombre de usuario
+        password="",  # Cambia esto con tu contraseña
+        database=""
     )
 
 # Función para guardar en MySQL
